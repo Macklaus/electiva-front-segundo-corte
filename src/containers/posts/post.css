@@ -1,0 +1,23 @@
+.post-container{
+    width: 100%;
+    padding: 0 200px;
+}
+
+.post-description{
+    margin: 10px 0;
+    padding-bottom: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    border-bottom: 1px solid #0C4B33;
+}
+
+.post-description h2{
+    color: #000;
+    margin: 20px 0;
+    color: #1A9F8B;
+}
+
+.post-description:nth-last-child(1){
+    border-bottom: none;
+}
